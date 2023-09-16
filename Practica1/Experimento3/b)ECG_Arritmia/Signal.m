@@ -2,7 +2,7 @@ id=load('231m.mat');
 x=(id.val)/1.5;
 %Se sabe que el registro es de 10 [s], entonces
 Fs=length(x)/10;
-t=(0:length(x)-1)/Fs;
+t=(0:length(x)-1)/Fs
 
 derivI=x(1,:);
 derivII=x(2,:);
